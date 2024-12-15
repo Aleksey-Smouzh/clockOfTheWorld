@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zagary Swiata</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header></header>
-<main>
-    <section id="zegary"> 
+    <header><h1>Zegary Swiata</h1>
     
-        <h2> czas dla wybranych localizacji</h2>
-<ul id="wybraneLocacije"></ul>
+    </header>
+    <main>
+        <section id="zegary">
 
-
-
-
-
-         </section>
-
-
-
-
-
-    <section>
-<h2>Dadaj locacije</h2>
-<select  id="czasDadaj">
-  <button id="dadajCzas">Dadaj</button>
-</select>
-
-    </section>
-</main>
-<footer>
-    <p>wykonal:<span>ZYZ</span></p>
-</footer>
+            <h2> Czas dla wybranych localizacji</h2>
+            <ul id="wybraneLocacje"></ul>
+        </section>
+        <section>
+            <h2>Dadaj locacije</h2>
+            <select id="czasDadaj"></select>
+            <button id="dadajCzas">Dadaj</button>
+        </section>
+    </main>
+    <footer>
+        <p>wykonal:<span>ZYZ</span></p>
+    </footer>
 
 
 
 
 
 
-<script src="/JS/data.js?v=<?php echo time(); ?>"></script>
-<script src="/JS/function.js?v=<?php echo time(); ?>""></script>
+    <script src="JS/data.js?v=<?php echo time(); ?>"></script>
+    <script src="JS/function.js?v=<?php echo time(); ?>"></script>
 </body>
+
 </html>
